@@ -9,12 +9,14 @@ Basic description of the currently available macros:
 
 ## Apply Damage Macro
 Requires: Warpgate, Math.js
+
 Filename: applydamage_base
 
 A macro that offers a quick little pop-up menu to apply damage to tokens. Select a token, run the macro, input the damage, and the macro will apply the damage correctly to the token. The macro automatically considers armor & overshield, and there are three extra settings that let you set if the damage should be resisted, if the damage is armor-piercing, or if the target is exposed. Supports heat/burn as well.
 
 ## Auto Apply Damage Macro
 Requires: Warpgate, Math.js, Advanced Macros
+
 Filename: applydamage_auto
 
 A companion macro to the Apply Damage macro; this macro scans the chat for the _most recent_ weapon damage roll and then runs the Apply Damage macro, automatically filling out the damage field with the discovered damage. You still need to manually set resistance/exposed/armor piercing and choose the damage type. Saves a few seconds.
@@ -26,6 +28,7 @@ This _requires_ the Apply Damage macro to exist in the same Foundry world, and r
 
 ## Political Map Overlay Converter
 Requires: Political Map Overlay, Math.js
+
 Filename: polmap_converter_script
 
 A macro that allows you to quickly create drawings in foundry to denote zones/cover/etc. Use the Political Map Overlay module to actually color the zones, then use this macro to quickly convert them into Foundry drawings. Can also convert Political Map Overlay zones into walls & difficult terrain (from Monk's Enhanced Terrain layer module). Highly customizable.
