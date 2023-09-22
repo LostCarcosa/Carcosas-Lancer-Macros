@@ -1,7 +1,7 @@
 /*
 Convert Political Map Overlay Coloring to Drawings
 Written by StarsofCarcosa#0440
-V 1.5
+V 1.6
 
 May (?) require the Advanced Macros and Math.js modules to function. Also requires Political Map Overlay, obviously.
 Supports IronMonk's Enhanced Terrain Layer, but is not required for main functionality.
@@ -25,6 +25,7 @@ V1.2: now can convert into walls. (Must be enabled; see WALL_SETTINGS below.
 V1.3: can now convert into difficult terrain
 V1.4: reduce number of unnecessary walls created during wall conversion on square grid; add an option to SETTINGS that clears the polmap overlay after running.
 V1.5: fixed shoddy variable initilaization causing errors for some people.
+V1.6: tiny change; added "flags": {} to DEFAULTSETTINGS, which is required for color-specific drawing flags to work.
 
 List of polmap colors:
 
@@ -96,8 +97,20 @@ const DEFAULTSETTINGS = { // in retrospect I wish i had named it DEFAULT_SETTING
 	"textAlpha": 1,
 	"hidden": false, // the drawing starts hidden; will need to unhide for players to see
 	"locked": false, // the drawing starts locked; will need to unlock to move it
+	"flags": {}
 }
-
+/* If you want to use Advanced Drawing Tools, you can use the "flags" field to do so. 
+For example, to take advantage of ADT's dashed lines, use:
+	"flags": {
+        "advanced-drawing-tools": {
+            "lineStyle": {
+                "dash": [8, 5]
+            }
+        }
+    }
+	
+(can of course be extended to any other module that uses drawing flags, if you know what you're doing.)
+*/
 
 
 
