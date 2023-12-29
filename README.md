@@ -34,7 +34,7 @@ Filename: polmap_converter_script
 A macro that allows you to quickly create drawings in foundry to denote zones/cover/etc. Use the Political Map Overlay module to actually color the zones, then use this macro to quickly convert them into Foundry drawings. Can also convert Political Map Overlay zones into walls & difficult terrain (from Monk's Enhanced Terrain layer module). Highly customizable.
 
 
-## Political Map Overlay Converter
+## Quick Combat Builder
 Requires: Advanced Macros, Math.js
 
 Filename: lancer_quick_combat_builder
