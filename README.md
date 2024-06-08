@@ -1,7 +1,9 @@
 # Carcosas-Lancer-Macros
 A collection of useful macros I've written for the Lancer system on Foundry.
 
-Currently, these macros are verified to work with Foundry V10.291, Lancer version [insert version here], though they should work on similar versions. 
+Currently, these macros are verified to work with Foundry V10.291, Lancer version 1.6.1 except where stated otherwise. 
+
+Most of my macros are not yet updated to work for V11; I will work on them In Due Time. I will mark which ones are V11 compatiable.
 
 This is _not_ a Foundry module! To add each macro to your game, simply create a new macro in your foundry world, set it to a script macro, and copy paste the macro in. Detailed information is included in the file for each macro, including any other module prerequisites; Please read carefully.
 
@@ -13,6 +15,8 @@ Requires: Warpgate, Math.js
 Filename: applydamage_base
 
 A macro that offers a quick little pop-up menu to apply damage to tokens. Select a token, run the macro, input the damage, and the macro will apply the damage correctly to the token. The macro automatically considers armor & overshield, and there are three extra settings that let you set if the damage should be resisted, if the damage is armor-piercing, or if the target is exposed. Supports heat/burn as well.
+
+V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been uploaded as 'applydamage_base_v3_3_FoundryV11.js'.
 
 ## Auto Apply Damage Macro
 Requires: Warpgate, Math.js, Advanced Macros
@@ -32,6 +36,8 @@ Requires: Political Map Overlay, Math.js
 Filename: polmap_converter_script
 
 A macro that allows you to quickly create drawings in foundry to denote zones/cover/etc. Use the Political Map Overlay module to actually color the zones, then use this macro to quickly convert them into Foundry drawings. Can also convert Political Map Overlay zones into walls & difficult terrain (from Monk's Enhanced Terrain layer module). Highly customizable.
+
+V11 Update: Tentatively seems to work on V11 with no changes necessary. Make sure you update your Political Map Overlay module to the V11 compatiable version, but this macro should not require updates. Please let me know if errors are encountered.
 
 
 ## Quick Combat Builder
