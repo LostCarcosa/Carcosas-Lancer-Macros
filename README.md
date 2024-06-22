@@ -18,6 +18,8 @@ A macro that offers a quick little pop-up menu to apply damage to tokens. Select
 
 V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been uploaded as 'applydamage_base_v3_3_FoundryV11.js'.
 
+V10 version moved to `archive` folder.
+
 ## Auto Apply Damage Macro
 Requires: Warpgate, Math.js, Advanced Macros
 
@@ -47,7 +49,9 @@ Filename: lancer_quick_combat_builder
 
 A script that takes a text description of an encounter composition as input, and creates all the NPCs for you, complete with class/templates/optionals. Will also auto-assign art if you have the tokens uploaded. All NPCs are created into a folder of your choice. See header of macro for details on usage/formatting.
 
+V11 Update: Compatiable with V11, no major changes. use lancer_quick_combat_builder_v1_1_FoundryV11.js. 
 
+V10 version moved to `archive` folder.
 
 ## Troubleshooting
 I maintain a thread on the PILOT.NET discord server, which you can access [here](https://discord.com/channels/426286410496999425/1092876995341328445); if you need help getting these macros to work or you think you've found a bug or something, you can contact me there (ideally with your Foundry version, Lancer version, a description of your workflow, and screenshots of errors, if any).
