@@ -224,7 +224,7 @@ function handleButtonClick(html, event) {
         }
 
         //hp damage taken might be reduced by overshield, but burn gained is not.
-        token.actor.update({ "system.hp.value": hp - tempdamage, "system.burn": bur) + burndamage});
+        token.actor.update({ "system.hp.value": hp - tempdamage, "system.burn": burn + burndamage});
         newVal = hp - tempdamage;
 
       } else if (attackType === "Heat") {
