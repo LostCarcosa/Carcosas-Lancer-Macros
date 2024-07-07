@@ -10,17 +10,15 @@ This is _not_ a Foundry module! To add each macro to your game, simply create a 
 Basic description of the currently available macros:
 
 ## Apply Damage Macro
-Requires: Warpgate, Math.js
+Requires:  Math.js
 
 Filename: applydamage_base
 
 A macro that offers a quick little pop-up menu to apply damage to tokens. Select a token, run the macro, input the damage, and the macro will apply the damage correctly to the token. The macro automatically considers armor & overshield, and there are three extra settings that let you set if the damage should be resisted, if the damage is armor-piercing, or if the target is exposed. Supports heat/burn as well.
 
-V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been uploaded as `applydamage_base_v3_3_FoundryV11.js`.
+V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been uploaded as `applydamage_base_v3_4_FoundryV11.js`. Additionally, they have stripped out the (defunct) Warpgate dependency! 
 
-V10 version moved to `archive` folder.
-
-NOTE: The creator of Warpgate nuked it from existence (for reasons I don't quite understand); it is no longer possible to install Warpgate, therefore anybody who does not already have Warpgate cannot use this macro. Will be working on removing the Warpgate dependency and shifting to using innate Foundry dialogs.
+V10 version moved to `archive` folder. Macro versions 3.2 and older require Warpgate to function.
 
 
 ## Auto Apply Damage Macro
@@ -34,7 +32,7 @@ _Only_ detects weapon damage rolls; invades/grenades/etc don't roll damage and t
 
 This _requires_ the Apply Damage macro to exist in the same Foundry world, and requires that it be named "Apply Damage" exactly. 
 
-V11 Update: Zenn has updated this macro to V11; it has been uploaded as `applydamage_auto_V1_1_FoundryV11.js`.
+V11 Update: Zenn has updated this macro to V11; it has been uploaded as `applydamage_auto_V1_2_FoundryV11.js`. This version should be used alongside `applydamage_base_v3_4`.
 
 V10 version moved to `archive` folder.
 
