@@ -1,3 +1,34 @@
+/*
+Lancer Apply Damage Macro
+Written by StarsofCarcosa#0440
+(Modified by AnatoleSerial to work with Lancer system Version 2.0.3)
+
+REQUIRES THE FOLLOWING MODULES TO FUNCTION:
+- Math.js
+
+Select (not target) any number of tokens and run the macro, which will bring up a small menu. Enter unmodified damage, check Resistance box if appropriate, and select damage type.
+
+Kinetic/Energy/Explosive damage is all handled the same at the moment; tokens will take damage, accounting for armor.
+
+Burn will pierce armor and also increment the Burn value.
+
+Heat simply increments heat.
+
+
+The GM recieves a whisper updating them on changed values, so it is easy to check that everything is correct and to revert damage done if necessary. You can disable this function by commenting out the chat code, near the bottom. The user of the macro will also recieve a UI notification containing the same info.
+
+V2: Now accounts for overshield.
+
+V3: some fixes
+
+V3.3: Foundry V11 Compatiable (Thanks AnatoleSerial for doing the entire upgrade)
+
+V3.4: Removed Warpgate dependency, now relies only on foundry dialog! (Thanks again to AnatoleSerial for handling the entire upgrade!)
+	- additionally, some additional integration with the auto-damage macro has been added- will now color the appropriate damage type when using the auto-damage macro.
+*/
+
+
+// this section handles integration with auto-apply damage macro.
 let dmg = typeof args != 'undefined' && typeof args[0] == "number" ? args[0] : null
 
 let weaponStyle = "color:white"
