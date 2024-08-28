@@ -53,7 +53,7 @@ Filename: lancer_quick_combat_builder
 
 A script that takes a text description of an encounter composition as input, and creates all the NPCs for you, complete with class/templates/optionals. Will also auto-assign art if you have the tokens uploaded. All NPCs are created into a folder of your choice. See header of macro for details on usage/formatting.
 
-V11 Update: Compatiable with V11, no major changes. use lancer_quick_combat_builder_v1_2_FoundryV11.js. 
+V11 Update: Compatiable with V11, no major changes. use lancer_quick_combat_builder_v1_3_FoundryV11.js. 
 
 V10 version moved to `archive` folder.
 
