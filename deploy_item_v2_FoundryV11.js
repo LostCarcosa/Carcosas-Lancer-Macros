@@ -22,7 +22,7 @@ let deployables = game.actors.contents.filter(actor =>
 
 // Step 3: Filter deployables for the selected actor (using the deployer's ID)
 deployables = deployables.filter(deployable => {
-  const deployerId = deployable.system?.deployer?.id?.replace(/^Actor\./, ''); // Clean ID
+  const deployerId = deployable.system?.owner?.id?.replace(/^Actor\./, ''); // Clean ID
   return deployerId === token.actor.id;
 });
 
