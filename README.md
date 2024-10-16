@@ -49,7 +49,11 @@ V11 Update: Compatiable with V11, no major changes. use lancer_quick_combat_buil
 V10 version moved to `archive` folder.
 
 ## [Deploy Item](deploy_item_v2_FoundryV11.js)
-Displays the selected token's owned deployables a selectable list.  After selecting a deployable, Left-click to place the token on the previewed space. Right-click or hit Escape to cancel placement.
+Displays the selected token's owned deployables in a selectable list.  After selecting a deployable, Left-click to place the token on the previewed space. Right-click or hit Escape to cancel placement.
+
+## [Eye of Horus](lancer_eye_of_horus_v1.js)
+Whispers targeted token(s) HP, Heat, E-Defense and Evasion stats to selected Player Character's.
+(Also works great for Lotus Projector)
 
 ## Troubleshooting
 I maintain a thread on the PILOT.NET discord server, which you can access [here](https://discord.com/channels/426286410496999425/1092876995341328445); if you need help getting these macros to work or you think you've found a bug or something, you can contact me there (ideally with your Foundry version, Lancer version, a description of your workflow, and screenshots of errors, if any).
