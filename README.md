@@ -63,13 +63,13 @@ On Confirm, the macro performs the selected functions, deducts repairs and sends
 
 *The Condition button will only appear if an actor has a condition present.
 
-![Rest main menu](assets/img/rest1.png
+![Rest main menu](assets/img/rest1.png)
 
 For Destroyed mechs (Detected when either structure or Stress are 0) an alternate form prompts the user for 4 repairs to recover their mech.
 This form checks the last 5 messages from chat to find repair contributions, and deducts any it finds from the final cost.
 On confirm, Structure and Stress are set to 1, HP to Max, and the normal Rest form appears.
 
-![Rest recovery menu](assets/img/rest2.png
+![Rest recovery menu](assets/img/rest2.png)
 
 ## Troubleshooting
 I maintain a thread on the PILOT.NET discord server, which you can access [here](https://discord.com/channels/426286410496999425/1092876995341328445); if you need help getting these macros to work or you think you've found a bug or something, you can contact me there (ideally with your Foundry version, Lancer version, a description of your workflow, and screenshots of errors, if any).
