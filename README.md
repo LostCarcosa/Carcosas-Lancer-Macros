@@ -49,7 +49,11 @@ V11 Update: Compatiable with V11, no major changes. use lancer_quick_combat_buil
 V10 version moved to `archive` folder.
 
 ## [Deploy Item](deploy_item_v2_FoundryV11.js)
-Displays the selected token's owned deployables a selectable list.  After selecting a deployable, Left-click to place the token on the previewed space. Right-click or hit Escape to cancel placement.
+Displays the selected token's owned deployables in a selectable list.  After selecting a deployable, Left-click to place the token on the previewed space. Right-click or hit Escape to cancel placement.
+
+## [Eye of Horus](lancer_eye_of_horus_v1.js)
+Whispers targeted token(s) HP, Heat, E-Defense and Evasion stats to selected Player Character's.
+(Also works great for Lotus Projector)
 
 ## [Rest Menu](lancer_rest_v1.js)
 Adds a comprehensive rest menu to take players through the post-combat rest process with a selectable ledger of options and live updating costs that respect the player's available repairs.
