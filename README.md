@@ -57,14 +57,15 @@ Whispers targeted token(s) HP, Heat, E-Defense and Evasion stats to selected Pla
 
 ## [Rest Menu](lancer_rest_v1.js)
 Adds a comprehensive rest menu to take players through the post-combat rest process with a selectable ledger of options and live updating costs that respect the player's available repairs.
-Includes heat and conditon* clearing, HP, Structure, Stress, destroyed weapons and systems and  allied mech repair contributions on the base form.
-Also allows players to contribute additional repairs toward destroyed allied mechs.
+Includes heat and conditon* clearing, HP, Structure, Stress, destroyed weapons and systems and allied mech repair contributions on the base form.
+
 On Confirm, the macro performs the selected functions, deducts repairs and sends a report to chat.
 
 *The Condition button will only appear if an actor has a condition present.
 
 ![Rest main menu](assets/img/rest1.png)
 
+#### Destroyed Mechs
 For Destroyed mechs (Detected when either structure or Stress are 0) an alternate form prompts the user for 4 repairs to recover their mech.
 This form checks the last 5 messages from chat to find repair contributions, and deducts any it finds from the final cost.
 On confirm, Structure and Stress are set to 1, HP to Max, and the normal Rest form appears.
