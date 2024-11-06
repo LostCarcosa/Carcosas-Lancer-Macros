@@ -12,9 +12,9 @@ if (pilots.length === 1) {
     openPilotWindow(pilots[0]);
 } else {
     // Create the button list for multiple pilots
-    let dialogContent = '<div><h2>Select a Pilot</h2>';
+    let dialogContent = '<div class="lancer-hit card clipped" style="display: block; background-color: var(--background-color); padding: 10px; border-radius: 5px; color: white;"><h2>Select a Pilot</h2>';
     pilots.forEach(pilot => {
-        dialogContent += `<button style="display:block;margin:5px;" data-id="${pilot.id}">${pilot.name}</button>`;
+        dialogContent += `<button class="lancer-button lancer-secondary" style="display: block; margin: 5px; margin-left: -1px;" data-id="${pilot.id}">${pilot.name}${pilot?.system?.callsign ? ` [${pilot.system.callsign}]` : ''}</button>`;
     });
     dialogContent += '</div>';
 
@@ -228,7 +228,7 @@ async function openPilotWindow(pilot) {
     let destroyedWeapons = [];
     mech.system.loadout.weapon_mounts.forEach((mount, mountIndex) => {
         mount.slots.forEach((slot, slotIndex) => {
-            let weapon = slot.weapon.value;
+            let weapon = slot.weapon?.value;
             if (weapon?.system?.destroyed) {
                 destroyedWeapons.push({
                     name: weapon.name,
