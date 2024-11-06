@@ -19,7 +19,7 @@ V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been
 V10 version moved to `archive` folder. Macro versions 3.2 and older require Warpgate to function.
 
 ## [Auto Apply Damage Macro](applydamage_auto_v1_3_FoundryV11.js)
-Requires: Warpgate, Math.js, Advanced Macros
+Requires: Math.js, Advanced Macros
 
 A companion macro to the Apply Damage macro; this macro scans the chat for the _most recent_ weapon damage roll and then runs the Apply Damage macro, prefills damage field with the discovered damage and hiding non-applicable damage buttons. You still need to manually set resistance or armor piercing and choose the damage type. Automatically doubles damage for targets that have the Exposed condition.
 
