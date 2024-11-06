@@ -1,4 +1,4 @@
-# Carcosas-Lancer-Macros
+# Lancer VTT Foundry Macros Collection
 A collection of useful macros I've written for the Lancer system on Foundry.
 
 Currently, these macros are verified to work with Foundry V10.291, Lancer version 1.6.1 except where stated otherwise. 
