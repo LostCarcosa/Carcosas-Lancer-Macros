@@ -55,6 +55,23 @@ Displays the selected token's owned deployables in a selectable list.  After sel
 Whispers targeted token(s) HP, Heat, E-Defense and Evasion stats to selected Player Character's.
 (Also works great for Lotus Projector)
 
+## [Rest Menu](lancer_rest_v1.js)
+Adds a comprehensive rest menu to take players through the post-combat rest process with a selectable ledger of options and live updating costs that respect the player's available repairs.
+Includes heat and conditon* clearing, HP, Structure, Stress, destroyed weapons and systems and allied mech repair contributions on the base form.
+
+On Confirm, the macro performs the selected functions, deducts repairs and sends a report to chat.
+
+*The Condition button will only appear if an actor has a condition present.
+
+![Rest main menu](assets/img/rest1.png)
+
+#### Destroyed Mechs
+For Destroyed mechs (Detected when either structure or Stress are 0) an alternate form prompts the user for 4 repairs to recover their mech.
+This form checks the last 5 messages from chat to find repair contributions, and deducts any it finds from the final cost.
+On confirm, Structure and Stress are set to 1, HP to Max, and the normal Rest form appears.
+
+![Rest recovery menu](assets/img/rest2.png)
+
 ## Troubleshooting
 I maintain a thread on the PILOT.NET discord server, which you can access [here](https://discord.com/channels/426286410496999425/1092876995341328445); if you need help getting these macros to work or you think you've found a bug or something, you can contact me there (ideally with your Foundry version, Lancer version, a description of your workflow, and screenshots of errors, if any).
 
