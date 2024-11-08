@@ -1,9 +1,7 @@
 # Lancer VTT Foundry Macros Collection
-A collection of useful macros I've written for the Lancer system on Foundry.
+A collection of useful macros written for the Lancer system on Foundry.
 
-Currently, these macros are verified to work with Foundry V10.291, Lancer version 1.6.1 except where stated otherwise. 
-
-Most of my macros are not yet updated to work for V11; I will work on them In Due Time. I will mark which ones are V11 compatiable.
+Most macros are now Foundry V11.315 compatiable, except where indicated otherwise.
 
 This is _not_ a Foundry module! To add each macro to your game, simply create a new macro in your foundry world, set it to a script macro, and copy paste the macro in. Detailed information is included in the file for each macro, including any other module prerequisites; Please read carefully.
 
