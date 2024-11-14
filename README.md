@@ -72,6 +72,15 @@ On confirm, Structure and Stress are set to 1, HP to Max, and the normal Rest fo
 
 ![Rest recovery menu](assets/img/rest2.png)
 
+
+## [Invade](lancer_invade_v1.js)
+Allows a more RAW flow for the Invade Tech Attack option.
+On execution, opens a window that first allows the convenient triggering of a tech attack roll against a target.
+The Check button will populate a list of all of the user's Invade options* if the roll beat the targets E-Defense.
+Select any option to preview it's effect, then confirm to post the results ot the Invade to the chat.
+
+*The macro should find Invade options in the user's equipped systems, pilot talents, and the Chomolungma's core passive's.  If some 3rd party content draws an Invade option from elsewhere and you'd like support, please drop a message in the discord thread linked below and tag @Zenn.
+
 ## Troubleshooting
 I maintain a thread on the PILOT.NET discord server, which you can access [here](https://discord.com/channels/426286410496999425/1092876995341328445); if you need help getting these macros to work or you think you've found a bug or something, you can contact me there (ideally with your Foundry version, Lancer version, a description of your workflow, and screenshots of errors, if any).
 
