@@ -1,9 +1,7 @@
-# Carcosas-Lancer-Macros
-A collection of useful macros I've written for the Lancer system on Foundry.
+# Lancer VTT Foundry Macros Collection
+A collection of useful macros written for the Lancer system on Foundry.
 
-Currently, these macros are verified to work with Foundry V10.291, Lancer version 1.6.1 except where stated otherwise. 
-
-Most of my macros are not yet updated to work for V11; I will work on them In Due Time. I will mark which ones are V11 compatiable.
+Most macros are now Foundry V11.315 compatiable, except where indicated otherwise.
 
 This is _not_ a Foundry module! To add each macro to your game, simply create a new macro in your foundry world, set it to a script macro, and copy paste the macro in. Detailed information is included in the file for each macro, including any other module prerequisites; Please read carefully.
 
@@ -19,7 +17,7 @@ V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been
 V10 version moved to `archive` folder. Macro versions 3.2 and older require Warpgate to function.
 
 ## [Auto Apply Damage Macro](applydamage_auto_v1_3_FoundryV11.js)
-Requires: Warpgate, Math.js, Advanced Macros
+Requires: Math.js, Advanced Macros
 
 A companion macro to the Apply Damage macro; this macro scans the chat for the _most recent_ weapon damage roll and then runs the Apply Damage macro, prefills damage field with the discovered damage and hiding non-applicable damage buttons. You still need to manually set resistance or armor piercing and choose the damage type. Automatically doubles damage for targets that have the Exposed condition.
 
