@@ -7,27 +7,6 @@ This is _not_ a Foundry module! To add each macro to your game, simply create a 
 
 Basic description of the currently available macros:
 
-## [Apply Damage Macro](applydamage_base_v5_FoundryV11.js)
-Requires:  Math.js
-
-A macro that offers a quick little pop-up menu to apply damage to tokens. Select a token, run the macro, input the damage, and the macro will apply the damage correctly to the token. The macro automatically considers armor & overshield, and there are three extra settings that let you set if the damage should be resisted, if the damage is armor-piercing, or if the target is exposed. Supports heat/burn as well.
-
-V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been uploaded as `applydamage_base_v5_FoundryV11.js`. Additionally, they have stripped out the (defunct) Warpgate dependency! 
-
-V10 version moved to `archive` folder. Macro versions 3.2 and older require Warpgate to function.
-
-## [Auto Apply Damage Macro](applydamage_auto_v1_3_FoundryV11.js)
-Requires: Math.js, Advanced Macros
-
-A companion macro to the Apply Damage macro; this macro scans the chat for the _most recent_ weapon damage roll and then runs the Apply Damage macro, prefills damage field with the discovered damage and hiding non-applicable damage buttons. You still need to manually set resistance or armor piercing and choose the damage type. Automatically doubles damage for targets that have the Exposed condition.
-
-_Only_ detects weapon damage rolls; invades/grenades/etc don't roll damage and therefore aren't detected.
-
-This _requires_ the Apply Damage macro to exist in the same Foundry world, and requires that it be named "Apply Damage" exactly. 
-
-V11 Update: Zenn has updated this macro to V11; it has been uploaded as `applydamage_auto_V1_3_FoundryV11.js`. This version should be used alongside `applydamage_base_v3_4` (or higher).
-
-V10 version moved to `archive` folder.
 
 ## [Political Map Overlay Converter](polmap_converter_script_v1_6.js)
 Requires: Political Map Overlay, Math.js
@@ -69,6 +48,34 @@ This form checks the last 5 messages from chat to find repair contributions, and
 On confirm, Structure and Stress are set to 1, HP to Max, and the normal Rest form appears.
 
 ![Rest recovery menu](assets/img/rest2.png)
+
+
+## [Apply Damage Macro](applydamage_base_v5_FoundryV11.js)
+Requires:  Math.js
+
+NOTE: With Lancer system version v.2.3.0 adding damage application natively, this macro is deprecated; there's no real need to use it further.
+
+A macro that offers a quick little pop-up menu to apply damage to tokens. Select a token, run the macro, input the damage, and the macro will apply the damage correctly to the token. The macro automatically considers armor & overshield, and there are three extra settings that let you set if the damage should be resisted, if the damage is armor-piercing, or if the target is exposed. Supports heat/burn as well.
+
+V11 Update: AnatoleSerial has very kindly updated this macro to V11; it has been uploaded as `applydamage_base_v5_FoundryV11.js`. Additionally, they have stripped out the (defunct) Warpgate dependency! 
+
+V10 version moved to `archive` folder. Macro versions 3.2 and older require Warpgate to function.
+
+## [Auto Apply Damage Macro](applydamage_auto_v1_3_FoundryV11.js)
+Requires: Math.js, Advanced Macros
+
+NOTE: With Lancer system version v.2.3.0 adding damage application natively, this macro is deprecated; there's no real need to use it further.
+
+A companion macro to the Apply Damage macro; this macro scans the chat for the _most recent_ weapon damage roll and then runs the Apply Damage macro, prefills damage field with the discovered damage and hiding non-applicable damage buttons. You still need to manually set resistance or armor piercing and choose the damage type. Automatically doubles damage for targets that have the Exposed condition.
+
+_Only_ detects weapon damage rolls; invades/grenades/etc don't roll damage and therefore aren't detected.
+
+This _requires_ the Apply Damage macro to exist in the same Foundry world, and requires that it be named "Apply Damage" exactly. 
+
+V11 Update: Zenn has updated this macro to V11; it has been uploaded as `applydamage_auto_V1_3_FoundryV11.js`. This version should be used alongside `applydamage_base_v3_4` (or higher).
+
+V10 version moved to `archive` folder.
+
 
 ## Troubleshooting
 I maintain a thread on the PILOT.NET discord server, which you can access [here](https://discord.com/channels/426286410496999425/1092876995341328445); if you need help getting these macros to work or you think you've found a bug or something, you can contact me there (ideally with your Foundry version, Lancer version, a description of your workflow, and screenshots of errors, if any).
